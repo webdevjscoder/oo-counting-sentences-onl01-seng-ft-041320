@@ -27,7 +27,7 @@ class String
   end
 
   def count_sentences
-    @count = self.count_sentences.split(' ')
-    
+    count = self.count_sentences.split(' ')
+      
   end
 end
