@@ -27,7 +27,7 @@ class String
   end
 
   def count_sentences
-    count = self.count_sentences.split(' ')
-      count
+    number_count = self.count_sentences.split(' ')
+      number_count.count { |num| num }
   end
 end
